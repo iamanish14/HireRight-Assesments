@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-17T20:12:00 IST" name="Default suite" finished-at="2023-07-17T20:12:03 IST" duration-ms="2427">
+    <groups>
+    </groups>
+    <test started-at="2023-07-17T20:12:00 IST" name="Default test" finished-at="2023-07-17T20:12:03 IST" duration-ms="2427">
+      <class name="com.HireRight_Assessment.runner.TestRunner">
+        <test-method signature="login()[pri:0, instance:com.HireRight_Assessment.runner.TestRunner@9f116cc]" started-at="2023-07-17T20:12:00 IST" name="login" finished-at="2023-07-17T20:12:03 IST" duration-ms="2182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToCart()[pri:0, instance:com.HireRight_Assessment.runner.TestRunner@9f116cc]" started-at="2023-07-17T20:12:03 IST" name="addToCart" finished-at="2023-07-17T20:12:03 IST" depends-on-methods="com.HireRight_Assessment.runner.TestRunner.login" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+      </class> <!-- com.HireRight_Assessment.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
